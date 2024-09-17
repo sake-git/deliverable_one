@@ -108,24 +108,20 @@ Initialized empty Git repository in C:/Users/Dell/Desktop/unit1-git-practice/.gi
 $ git add .
 warning: in the working copy of 'my-steps.txt', LF will be replaced by CRLF the next time Git touches it
 $ git commit -m "First Commit to Git"
-[master (root-commit) d12cca8] First Commit to Git
- 8 files changed, 117 insertions(+)
- create mode 100644 my-steps.txt
- create mode 100644 plants/carrot.txt
- create mode 100644 plants/pea.txt
- create mode 100644 proteins/meats/crab.txt
- create mode 100644 proteins/tofu.txt
- create mode 100644 sweets/donut.txt
- create mode 100644 veggies/carrot.txt
- create mode 100644 veggies/pea.txt
+
 
 
 ### Step 5
 
-
+$ git remote add origin https://github.com/sake-git/deliverable_one.git
+$  git push -u origin master
 
 
 ### Step 6
+$ touch menu.txt
+$ git add .
+$ git commit -m "starting a menu"
+
 
 
 ### Step 7
